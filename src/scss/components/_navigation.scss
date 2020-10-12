@@ -1,0 +1,90 @@
+
+nav {
+
+  position: fixed;
+  width: 203px;
+
+  .navLogo {
+    height: 20vh;
+
+    img {
+      max-height: 20vh;
+      width: auto;
+    }
+
+  }
+  div {
+
+    height: 10vh;
+
+  }
+
+  a div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DDD;
+
+  }
+
+  .divLangue {
+
+    .navPositionA {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      height: 100%;
+
+    }
+
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+    .langue {
+      display: flex;
+      flex-direction: column;
+
+      a {
+        height: 30px;
+      }
+
+    }
+  }
+
+  .navLogo{
+    background-color: white;
+  }
+
+  .accueil {
+    background-color: #2E9720;
+  }
+
+  .camp {
+    background-color: #29B85F;
+  }
+
+  .parc {
+    background-color: #209788;
+  }
+
+  .activite {
+    background-color: #206A97;
+  }
+
+  .location {
+    background-color: #205097;
+  }
+
+  .emploie {
+    background-color: #4D2097;
+  }
+
+  .contact {
+    background-color: #782097;
+  }
+
+}

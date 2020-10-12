@@ -1,0 +1,294 @@
+
+#body {
+  width: 100%;
+  padding-left: 203px;
+}
+
+button {
+  width: 336px;
+  height: 82px;
+  background-color: #2E9720;
+  color: #fff;
+  border: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  text-transform: none;
+  font-size: 42px;
+}
+
+.hero {
+  background-image: url("images/piscine.jpg") center/cover;
+
+  background-color: green;
+
+  height: 824px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  //padding-left: 209px;
+
+  div {
+    margin-left: 44px;
+    color: #fff;
+
+    h1 {
+      font-family: 'Alfa Slab One', cursive;
+      font-size: 120px;
+      text-transform: none;
+
+      font-weight: normal;
+    }
+
+    h2 {
+      font-family: 'Source Sans Pro', sans-serif;
+      text-transform: none;
+      font-size: 36px;
+
+    }
+  }
+}
+
+.faireDon {
+  width: 100%;
+
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  div {
+    max-width: 750px;
+
+    p {
+      color: #2E9720;
+    }
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 36px;
+    text-transform: none;
+    font-weight: normal;
+
+    text-align: center;
+  }
+
+}
+
+.acActivite {
+
+  display: flex;
+  justify-content: center;
+
+  height: 400px;
+
+  div {
+    width: 50%;
+  }
+
+  .acActImg {
+    width: 50%;
+    background-image: url("images/tirArc.png") center/cover;
+    background-color: #2E9720;
+
+    position: relative;
+    overflow: hidden;
+
+  }
+
+  .actHover {
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    transition: all .5s;
+
+    height: 100%;
+    width: 100%;
+
+    background-color: #00AFF0;
+
+    button {
+      background-color: #EBEBEB;
+      color: #2E9720;
+      margin-bottom: -20%;
+    }
+  }
+
+  .acActImg:hover .actHover {
+    opacity: 1;
+
+    button {
+
+      margin-bottom: 0;
+    }
+  }
+
+  .actContenue {
+    padding-left: 78px;
+  }
+
+  h3 {
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: none;
+    font-weight: normal;
+    font-size: 36px;
+  }
+
+  .acLigne {
+    max-width: 225px;
+    height: 9px;
+    background-color: #7FACBF;
+    margin-top: -30px;
+  }
+
+  ul {
+
+    padding: 0;
+    li {
+      list-style: none;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: normal;
+      text-transform: none;
+      font-size: 30px;
+    }
+  }
+}
+
+.acActivite.Alt {
+
+  text-align: right;
+  align-items: right;
+  .acLigne {
+
+    align-self: flex-end;
+
+  }
+  .acActImg2 {
+    background-image: url("images/poney.jpg");
+
+    background-color: #2E9720;
+    position: relative;
+    overflow: hidden;
+
+  }
+
+  .actContenue2 {
+    padding-right: 78px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+
+
+  }
+
+  .actHover2 {
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    transition: all .5s;
+
+    height: 100%;
+    width: 100%;
+
+    background-color: #00AFF0;
+
+    button {
+      background-color: #EBEBEB;
+      color: #2E9720;
+      margin-bottom: -20%;
+    }
+  }
+
+  .acActImg2:hover .actHover2 {
+    opacity: 1;
+
+    button {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.accueilActivite {
+  max-width: 1238px;
+
+  margin: 0 auto;
+}
+
+
+.promotion{
+  margin-top: 146px;
+
+
+
+  img{
+    position: absolute;
+   width: 665px;
+    height: 588px;
+
+    left: 63%;
+
+  }
+
+  .promContenant{
+    background-color: #2E9720;
+    height: 543px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding-left: 112px;
+    position: relative;
+
+    div{
+
+      margin-left: -800px;
+z-index: 2;
+      max-width: 487px;
+      h2{
+        font-family: 'Alfa Slab One', cursive;
+        color: #fff;
+        font-size: 48px;
+        text-transform: none;
+        font-weight: normal;
+      }
+
+      h4{
+        margin-top: -40px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-transform: none;
+        font-size: 18px;
+        font-weight: normal;
+        color: #fff;
+      }
+
+      p{
+        font-family: 'Source Sans Pro', sans-serif;
+        text-transform: none;
+        font-size: 30px;
+        font-weight: normal;
+        color: #fff;
+      }
+    }
+
+
+
+
+
+  }
+
+}
+
+

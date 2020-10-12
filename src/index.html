@@ -7,75 +7,141 @@
     <title>Indiquer le titre de la page</title>
 
     <link rel="stylesheet" href="css/main.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Source+Sans+Pro:wght@400;700&display=swap"
+          rel="stylesheet">
     <script src="js/script.js"></script>
 
 </head>
 <body>
-<h1>Exemple de texte dans un H1</h1>
-<h2>Exemple de texte dans un H2</h2>
-<h3>Exemple de texte dans un H3</h3>
-<h4>Exemple de texte dans un H4</h4>
-<h5>Exemple de texte dans un H5</h5>
-<h6>Exemple de texte dans un H6</h6>
 
-<h3>Voici un exemple de paragraphe avec l'espacement entre les paragraphes (line-height)</h3>
-
-<p>La propriété <strong>line-height</strong> définit la hauteur de la boîte d'une ligne.</p>
-<p>Sur les éléments de bloc, la propriété <strong>line-height</strong> indique la hauteur minimale des lignes au sein de l'élément. Sur les éléments en ligne qui ne sont pas remplacés, <strong>line-height</strong> indique la hauteur utilisée pour calculer la hauteur de la boîte d'une ligne.</p>
-<p>Il faut s'habituer à ajuster le <strong>line-height</strong> dans nos page.</p>
-
-<h3>Voici un exemple de lien</h3>
-<p>Un lien vers le site la <a href="https://developer.mozilla.org/fr/">Documentation du Web - MDN</a></p>
-
-<h3>Voici une exemple de liste à puce</h3>
-<h4>Liste d'éléments sans ordre particulier</h4>
-<ul>
-    <li>Voici l'item1</li>
-    <li>Voici l'item2</li>
-    <li>Voici l'item3 avec un sous-liste
-        <ul>
-            <li>Sous liste item1</li>
-            <li>Sous liste item2</li>
-            <li>Sous liste item3</li>
-        </ul>
-    </li>
-    <li>Voici l'item4</li>
-    <li>Voici l'item5</li>
-</ul>
-<h4>Liste d'éléments ordonnée</h4>
-<ol>
-    <li>Voici l'item1</li>
-    <li>Voici l'item2</li>
-    <li>Voici l'item3
-        <ol>
-            <li>Sous liste item1</li>
-            <li>Sous liste item2</li>
-            <li>Sous liste item3</li>
-        </ol>
-    </li>
-    <li>Voici l'item4</li>
-    <li>Voici l'item5</li>
-</ol>
+<!--<?php get_navigation()-->
+<!--?>-->
+<aside>
+    <nav>
+        <a href="">
+            <div class="navLogo"><img src="images/logo.jpg" alt="logo"></div>
+        </a>
+        <a href="">
+            <div class="accueil"><p>Accueil</p></div>
+        </a>
+        <a href="">
+            <div class="camp"><p>Camp</p></div>
+        </a>
+        <a href="">
+            <div class="parc"><p>Parc</p></div>
+        </a>
+        <a href="">
+            <div class="activite"><p>Activités</p></div>
+        </a>
+        <a href="">
+            <div class="location"><p>Location</p></div>
+        </a>
+        <a href="">
+            <div class="emploie"><p>Emploie</p></div>
+        </a>
+        <a href="">
+            <div class="contact"><p>Contact</p></div>
+        </a>
+        <div class="divLangue">
+            <div><a class="navPositionA" href=""><img src="images/FbVert.png" alt="FbVert"></a></div>
+            <div class="langue">
+                <a href=""><p>En</p></a>
+                <a href=""><p>Fr</p></a>
+            </div>
+        </div>
+    </nav>
+</aside>
 
 
-<h3>Voici une exemple de ligne avec la balise hr</h3>
-<hr>
-<hr class="hr-thin">
-<hr class="hr-large">
+<div id="body">
+
+    <section class="hero">
+        <div>
+            <h2>Entre fleuve et forêt...</h2>
+            <h1>Colonie des Grèves</h1>
+            <h2>On se branche nature !</h2>
+        </div>
+    </section>
+
+    <section class="faireDon">
+
+        <div>
+            <p>Soutener nous pour le plaisir de passer du bon temps en famille avec un petit don</p>
+            <button>
+                Faire un don
+            </button>
+        </div>
+    </section>
 
 
-<div class="wrapper">
-    <h3>Voici une exemple de wrapper avec la propriété margin: 0 auto;</h3>
+    <section class="accueilActivite">
+
+        <div class="acActivite">
+            <div class="acActImg">
+                <div class="actHover">
+                    <button>Voir plus</button>
+                </div>
+            </div>
+
+            <div class="actContenue">
+                <h3>Entre fleuve et nature</h3>
+                <div class="acLigne"></div>
+
+                <ul>
+                    <li>Canot</li>
+                    <li>Mini-ferme</li>
+                    <li>Tir à l’arc</li>
+                </ul>
+
+            </div>
+        </div>
+
+
+        <div class="acActivite Alt">
+
+            <div class="actContenue2">
+                <h3>Entre neige et chocolat chaud</h3>
+                <div class="acLigne"></div>
+
+                <ul>
+                    <li>Carrousel de poney</li>
+                    <li>Ski de fond</li>
+                    <li>Hockey</li>
+                </ul>
+
+            </div>
+            <div class="acActImg2">
+                <div class="actHover2">
+                    <button>Voir plus</button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="promotion">
+
+        <div class="promContenant">
+            <div>
+            <h2>Promotion fête du travail</h2>
+            <h4>Du 4 Septembre au 8 Septembre</h4>
+            <p>Profiter d’un rabais de 15% sur les activités payante</p>
+            <p>Une belle aubaine pour une belle fin de semaine de 3 jours</p>
+
+
+            </div>
+            <img src="images/fillePapillion.png" alt="fille papillion">
+
+        </div>
+
+
+
+    </section>
+
+
 </div>
-
-<div class="grid-wrapper">
-    <h3 class="grid-center">Voici une exemple de wrapper avec le layout css Grid</h3>
-</div>
-
-
-
-
 
 </body>
 </html>
