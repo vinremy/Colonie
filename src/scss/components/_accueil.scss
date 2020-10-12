@@ -185,7 +185,6 @@ button {
     flex-direction: column;
     align-items: right;
 
-
   }
 
   .actHover2 {
@@ -225,39 +224,39 @@ button {
   margin: 0 auto;
 }
 
-
-.promotion{
+.promotion {
   margin-top: 146px;
-
-
-
-  img{
-    position: absolute;
-   width: 665px;
+  background-color: #2E9720;
+  img {
+    //position: absolute;
+    width: 665px;
     height: 588px;
 
-    left: 63%;
+    //left: 60.8%;
+
+    align-items: flex-end;
 
   }
 
-  .promContenant{
-    background-color: #2E9720;
+
+  .promContenant {
+
     height: 543px;
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
-    padding-left: 112px;
+    align-items: center;
+    justify-content: space-around;
+
+    //padding-left: 112px;
     position: relative;
 
-    div{
+    div {
 
-      margin-left: -800px;
-z-index: 2;
+      //margin-left: -800px;
+      z-index: 2;
       max-width: 487px;
-      h2{
+      h2 {
         font-family: 'Alfa Slab One', cursive;
         color: #fff;
         font-size: 48px;
@@ -265,7 +264,7 @@ z-index: 2;
         font-weight: normal;
       }
 
-      h4{
+      h4 {
         margin-top: -40px;
         font-family: 'Source Sans Pro', sans-serif;
         text-transform: none;
@@ -274,7 +273,7 @@ z-index: 2;
         color: #fff;
       }
 
-      p{
+      p {
         font-family: 'Source Sans Pro', sans-serif;
         text-transform: none;
         font-size: 30px;
@@ -282,13 +281,50 @@ z-index: 2;
         color: #fff;
       }
     }
+  }
+}
 
+.partenaire {
+  margin-top: 109px;
+  //display: flex;
+  //flex-direction: column;
+  //justify-content: center;
+  align-items: center;
 
-
-
-
+  h2 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 48px;
+    text-transform: none;
+    color: black;
+    align-items: flex-start;
+    //margin-left:160px ;
+    max-width: 487px;
+  }
+  .flexPart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
+  .partContenant {
+    max-width: 756px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 243px;
+      height: 130px;
+      margin: 79px 0 50px 0;
+      img {
+        width: 50%;
+
+      }
+    }
+  }
 }
 
 

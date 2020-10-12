@@ -1,0 +1,129 @@
+footer {
+  background-color: #1D1C1C;
+  color: white;
+
+  a:link{
+    color: white;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: none;
+    font-weight: normal;
+    font-size: 24px;
+  }
+  h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 64px;
+    text-transform: none;
+    font-weight: normal;
+  }
+
+  p{
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: none;
+    font-weight: normal;
+    font-size: 24px;
+  }
+
+  .footHero {
+    background-color: #2E9720;
+    position: relative;
+    height: 340px;
+
+    .footTransition {
+      background: linear-gradient(0deg, #1C1B1B 10.59%, rgba(28, 27, 27, 0) 100%);
+      position: absolute;
+      bottom: 0;
+      height: 85px;
+      width: 100%;
+    }
+  }
+
+  .contenantJoindre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .joindre{
+
+      img{
+        width: 42px;
+        height: 42px;
+        margin-right: 25px;
+      }
+
+
+      .joindreContenant{
+        max-width: 429px;
+
+
+
+        .flexJoindre{
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+
+
+
+
+        }
+      }
+
+    }
+  }
+
+  .infolettre{
+
+    //margin-left: 150px;
+
+    h2{
+      max-width: 615px;
+    }
+    p{
+      max-width: 615px;
+    }
+  }
+
+  form{
+    display: flex;
+    justify-content: space-between;
+
+    input{
+      align-self: flex-start;
+      background-color: #1C1B1B;
+      border: 3px solid #FFFFFF;
+      box-sizing: border-box;
+      border-radius: 41.5px;
+      width: 358px;
+      height: 44px;
+      color: white;
+      padding-left: 20px;
+
+
+      ::placeholder{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+      }
+
+    }
+  }
+.copyright{
+  margin-top:60px ;
+
+  background-color: #3E3E3E;
+  height: 49px;
+
+  .wrapper{
+    display: flex;
+    align-items: center;
+  }
+  p{
+    font-family: Inter,sans-serif;
+    font-size: 14px;
+    color: #DDD;
+  }
+}
+
+}

@@ -21,18 +21,18 @@ textarea {
 [type="number"],
 [type="date"],
 [type="search"] {
-  height: $base-input-height;
-  padding: 8px;
-  background-color: $base-input-background-color;
-  border: $base-input-border-size solid $base-input-border-color;
-  border-radius: $base-input-border-radius;
-  -webkit-appearance: none;
-  -moz-appearance: textfield;
-  &:focus {
-    background-color: $base-input-background-focus-color;
-    border-color: $base-input-border-focus-color;
-    outline: 0;
-  }
+  //height: $base-input-height;
+  //padding: 8px;
+  //background-color: $base-input-background-color;
+  //border: $base-input-border-size solid $base-input-border-color;
+  //border-radius: $base-input-border-radius;
+  //-webkit-appearance: none;
+  //-moz-appearance: textfield;
+  //&:focus {
+  //  background-color: $base-input-background-focus-color;
+  //  border-color: $base-input-border-focus-color;
+  //  outline: 0;
+  //}
 }
 
 // Textarea
@@ -42,11 +42,11 @@ textarea {
   border: $base-input-border-size solid $base-input-border-color;
   border-radius: $base-input-border-radius;
   overflow: auto;
-  &:focus {
-    background-color: $base-input-background-focus-color;
-    border-color: $base-input-border-focus-color;
-    outline: 0;
-  }
+  //&:focus {
+  //  background-color: $base-input-background-focus-color;
+  //  border-color: $base-input-border-focus-color;
+  //  outline: 0;
+  //}
 }
 
 // Select
@@ -57,11 +57,11 @@ select {
   background-color: $base-input-background-color;
   border: $base-input-border-size solid $base-input-border-color;
   border-radius: $base-input-border-radius;
-  &:focus {
-    background-color: $base-input-background-focus-color;
-    border-color: $base-input-border-focus-color;
-    outline: 0;
-  }
+  //&:focus {
+  //  background-color: $base-input-background-focus-color;
+  //  border-color: $base-input-border-focus-color;
+  //  outline: 0;
+  //}
 }
 
 // Buttons
