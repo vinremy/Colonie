@@ -168,15 +168,18 @@ nav {
   }
 
   .sousmenu{
-    display: none;
+    height: 0;
+overflow: hidden;
+
   }
 
   .open{
-    display: block;
+    height: 80vh;
+    transition: all .5s;
   }
 
   .close{
-    display: none;
+    height: 0;
   }
 }
 
