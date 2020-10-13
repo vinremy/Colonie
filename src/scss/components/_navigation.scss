@@ -5,8 +5,16 @@ nav {
   position: fixed;
   width: 203px;
 
-  .navLogo {
+  .boiteLogo{
     height: 20vh;
+  }
+
+  .navLogo {
+    position: relative;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     img {
       max-height: 20vh;
@@ -56,7 +64,7 @@ nav {
     }
   }
 
-  .navLogo{
+  .navLogo {
     background-color: white;
   }
 
@@ -88,17 +96,88 @@ nav {
     background-color: #782097;
   }
 
-  .divLangue{
+  .divLangue {
     background-color: white;
   }
 
-  a:link{
+  a:link {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: normal;
     font-size: 24px;
     text-transform: none;
     text-decoration: none;
 
+  }
+  .btn-ouvert {
+    display: none;
+  }
+
+  .btn-fermer {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 414px) {
+
+
+
+
+
+  nav {
+    position: fixed;
+    width: 100vw;
+
+    .boiteLogo{
+      display: flex;
+      justify-content: space-between;
+      background-color: #2E9720;
+      align-items: center;
+
+      .logo{
+        height: 400px;
+        width: auto;
+      }
+
+      #menu{
+        width: 60px;
+        height: auto;
+        margin-right: 20px;
+      }
+    }
+
+    .btn-ouvert{
+      display: block;
+      opacity: 1;
+      position: absolute;
+      right: 0;
+      padding-right: 15px;
+    }
+  }
+
+  .btn-fermer {
+    display: none;
+    opacity: 0;
+  }
+
+  .navLogo {
+    justify-content: space-between;
+    //max-width: 122px;
+    background-color: white;
 
   }
+
+  .sousmenu{
+    display: none;
+  }
+
+  .open{
+    display: block;
+  }
+
+  .close{
+    display: none;
+  }
 }
+
+

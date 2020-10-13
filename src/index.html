@@ -1,3 +1,7 @@
+<!--<?php get_navigation()-->
+<!--?>-->
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -14,39 +18,47 @@
 </head>
 <body>
 
-<!--<?php get_navigation()-->
-<!--?>-->
+
 <aside>
     <nav>
-        <a href="">
-            <div class="navLogo"><img src="images/logo.jpg" alt="logo"></div>
-        </a>
-        <a href="">
-            <div class="accueil"><p>Accueil</p></div>
-        </a>
-        <a href="">
-            <div class="camp"><p>Camp</p></div>
-        </a>
-        <a href="">
-            <div class="parc"><p>Parc</p></div>
-        </a>
-        <a href="">
-            <div class="activite"><p>Activités</p></div>
-        </a>
-        <a href="">
-            <div class="location"><p>Location</p></div>
-        </a>
-        <a href="">
-            <div class="emploie"><p>Emploie</p></div>
-        </a>
-        <a href="">
-            <div class="contact"><p>Contact</p></div>
-        </a>
-        <div class="divLangue">
-            <div><a class="navPositionA" href=""><img src="images/FbVert.png" alt="FbVert"></a></div>
-            <div class="langue">
-                <a href=""><p>En</p></a>
-                <a href=""><p>Fr</p></a>
+        <div class="boiteLogo">
+            <div class="navLogo">
+                <a href="">
+                    <img  class="logo" src="images/logo.jpg" alt="logo">
+                </a>
+                <img id="fermer" class="btn-fermer" src="images/fermer.svg" alt="fermer">
+
+            </div>
+            <img id="menu" class="btn-ouvert" src="images/menu.svg" alt="menu">
+        </div>
+        <div class="sousmenu close">
+            <a href="">
+                <div class="accueil"><p>Accueil</p></div>
+            </a>
+            <a href="">
+                <div class="camp"><p>Camp</p></div>
+            </a>
+            <a href="">
+                <div class="parc"><p>Parc</p></div>
+            </a>
+            <a href="">
+                <div class="activite"><p>Activités</p></div>
+            </a>
+            <a href="">
+                <div class="location"><p>Location</p></div>
+            </a>
+            <a href="">
+                <div class="emploie"><p>Emploie</p></div>
+            </a>
+            <a href="">
+                <div class="contact"><p>Contact</p></div>
+            </a>
+            <div class="divLangue">
+                <div><a class="navPositionA" href=""><img src="images/FbVert.png" alt="FbVert"></a></div>
+                <div class="langue">
+                    <a href=""><p>En</p></a>
+                    <a href=""><p>Fr</p></a>
+                </div>
             </div>
         </div>
     </nav>
@@ -234,7 +246,7 @@
         <div class="copyright">
             <div class="wrapper">
                 <p>Copyright © 2020 Vincent Rémy, Thomas Kdk, Carl Henri. tous droits réservés</p>
-                </div>
+            </div>
         </div>
     </footer>
 
