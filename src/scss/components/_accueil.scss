@@ -218,10 +218,16 @@ button {
   }
 }
 
+
+
 .accueilActivite {
   max-width: 1238px;
 
   margin: 0 auto;
+
+  .acButton{
+    display: none;
+  }
 }
 
 .promotion {
@@ -237,7 +243,6 @@ button {
     align-items: flex-end;
 
   }
-
 
   .promContenant {
 
@@ -327,9 +332,182 @@ button {
   }
 }
 
-@media screen and (max-width:414px ){
-  #body{
+@media screen and (max-width: 414px) {
+  #body {
     padding: 0;
+    margin-top: 166px;
+
+    button {
+      width: 196px;
+      height: 60px;
+      font-size: 30px;
+    }
+
+    .hero {
+      height: 276px;
+
+      div {
+
+        margin-left: 39px;
+        h1 {
+          font-size: 50px;
+        }
+
+        h2 {
+          font-size: 20px;
+        }
+      }
+
+    }
+
+    .faireDon {
+
+      div {
+
+        max-width: 342px;
+        p {
+          font-size: 24px;
+        }
+      }
+
+    }
+
+    .accueilActivite{
+
+      .acButton{
+        display: block;
+        align-self: center;
+
+        margin: 15px auto;
+      }
+    }
+
+    .acActivite{
+      display: block;
+
+      height: auto;
+
+
+
+      h3{
+        font-size: 24px;
+        padding-bottom: 14px;
+      }
+
+      li{
+        font-size: 18px;
+      }
+
+      .acLigne{
+        height: 5px;
+        width: 116px;
+      }
+
+
+      .acActImg{
+        width: 100%;
+        height: 266px;
+
+        :hover{
+          width: 100%;
+        }
+      }
+
+      .acActImg2{
+        width: 100%;
+        height: 266px;
+      }
+
+      .actContenue{
+        margin: 0;
+
+        width: 247px;
+
+
+      }
+      div{
+width: 100%;
+      }
+
+      .acActImg2{
+        :hover{
+          width: 100%;
+        }
+      }
+
+      .actContenue2{
+
+        align-items: flex-end;
+
+        h3{
+          width:247px ;
+        }
+
+      }
+
+
+    }
+
+
+
+
+    .promotion {
+
+      overflow: hidden;
+      img {
+
+        height: 444px;
+        width: auto;
+        position: absolute;
+        right: -50%;
+      }
+
+      .promContenant{
+
+        div{
+width: 259px;
+          padding: 20px;
+
+
+          background-color: rgba(138, 196, 43, 0.85);
+
+          h2{
+            font-size: 30px;
+            padding-bottom: 30px;
+          }
+
+           p{
+            font-size: 20px;
+             margin: 30px 0;
+          }
+
+          h4{
+            font-size: 20px;
+            margin: 0;
+          }
+        }
+
+
+      }
+
+    }
+
+
+
+    .partenaire{
+
+h2{
+  font-size: 30px;
+  margin: 0 auto;
+  padding-left: 37px;
+}
+
+      .partContenant{
+        justify-content: center;
+      }
+
+    }
+
   }
 }
 

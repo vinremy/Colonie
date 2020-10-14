@@ -5,7 +5,7 @@ nav {
   position: fixed;
   width: 203px;
 
-  .boiteLogo{
+  .boiteLogo {
     height: 20vh;
   }
 
@@ -56,9 +56,14 @@ nav {
     .langue {
       display: flex;
       flex-direction: column;
+      justify-content: center;
 
       a {
         height: 30px;
+
+        p {
+          margin: 0;
+        }
       }
 
     }
@@ -98,6 +103,8 @@ nav {
 
   .divLangue {
     background-color: white;
+    display: flex;
+    align-items: center;
   }
 
   a:link {
@@ -111,7 +118,6 @@ nav {
   .btn-ouvert {
     display: none;
   }
-
   .btn-fermer {
     display: none;
   }
@@ -120,46 +126,70 @@ nav {
 
 @media screen and (max-width: 414px) {
 
-
-
-
-
   nav {
-    position: fixed;
-    width: 100vw;
-
-    .boiteLogo{
-      display: flex;
-      justify-content: space-between;
-      background-color: #2E9720;
-      align-items: center;
-
-      .logo{
-        height: 400px;
-        width: auto;
-      }
-
-      #menu{
-        width: 60px;
-        height: auto;
-        margin-right: 20px;
-      }
+    .fermer {
+      display: none;
+      opacity: 0;
+      z-index: 4;
     }
 
-    .btn-ouvert{
+
+    .ouvert {
       display: block;
       opacity: 1;
       position: absolute;
       right: 0;
       padding-right: 15px;
     }
-  }
 
-  .btn-fermer {
-    display: none;
-    opacity: 0;
-  }
+    .divLangue {
+      justify-content: center;
 
+      .navPositionA {
+        margin-right: 100px;
+      }
+    }
+
+
+
+    .btn-ouvert {
+      display: block;
+    }
+    position: fixed;
+    width: 100vw;
+
+    .boiteLogo {
+      display: flex;
+      justify-content: space-between;
+      background-color: #2E9720;
+      align-items: center;
+
+      .logo {
+        height: 400px;
+        width: auto;
+      }
+
+      #menu {
+        width: 60px;
+        height: auto;
+        margin-right: 20px;
+      }
+
+      #fermer{
+        width: 100px;
+        height: auto;
+        margin-right: 20px;
+      }
+    }
+
+  }
+  .sousmenu {
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+
+  }
   .navLogo {
     justify-content: space-between;
     //max-width: 122px;
@@ -167,19 +197,17 @@ nav {
 
   }
 
-  .sousmenu{
-    height: 0;
-overflow: hidden;
 
-  }
 
-  .open{
+  .open {
     height: 80vh;
     transition: all .5s;
+    padding: 0;
   }
 
-  .close{
+  .close {
     height: 0;
+    transition: all .5s;
   }
 }
 

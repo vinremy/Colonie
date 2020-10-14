@@ -43,6 +43,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 
     .joindre{
 
@@ -68,6 +69,11 @@ footer {
 
         }
       }
+
+    }
+
+    .google-map{
+
 
     }
   }
@@ -125,5 +131,68 @@ footer {
     color: #DDD;
   }
 }
+
+}
+
+
+@media screen and (max-width:414px ){
+
+
+  .joindre{
+    padding-left: 37px;
+    padding-bottom: 30px;
+
+    h2{
+      font-size: 30px;
+    }
+
+    p{
+      font-size: 18px;
+    }
+  }
+
+
+  .google-map{
+
+    iframe{
+      width: 100vw;
+    }
+
+    p{
+      font-size: 18px;
+      margin: 0 auto;
+    }
+
+
+  }
+
+
+  .infolettre{
+
+    p{
+      font-size: 18px;
+      margin: 0 auto;
+      width: 307px;
+    }
+
+    h2{
+      font-size: 30px;
+      margin: 0 auto;
+      width: 307px;
+    }
+
+    form{
+      display: block;
+
+      input{
+        max-width: 358px;
+        margin: 0 auto;
+      }
+
+      button{
+        margin: 0 auto;
+      }
+    }
+  }
 
 }
