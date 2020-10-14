@@ -26,7 +26,7 @@ footer {
   }
 
   .footHero {
-    background-color: #2E9720;
+    background: url("../images/heroFooter.jpg") center;
     position: relative;
     height: 340px;
 
@@ -154,8 +154,12 @@ footer {
 
   .google-map{
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     iframe{
       width: 100vw;
+
     }
 
     p{
@@ -169,28 +173,49 @@ footer {
 
   .infolettre{
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     p{
       font-size: 18px;
       margin: 0 auto;
       width: 307px;
+      margin-bottom: 45px;
     }
 
     h2{
+      margin-top: 74px;
       font-size: 30px;
-      margin: 0 auto;
+
       width: 307px;
     }
 
     form{
-      display: block;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
       input{
         max-width: 358px;
         margin: 0 auto;
+        margin-bottom: 37px;
       }
 
       button{
         margin: 0 auto;
+      }
+    }
+  }
+
+  .copyright{
+    margin-top: 30px;
+
+    .wrapper{
+      background-color: #3E3E3E;
+
+      p{
+        padding-left: 20px;
       }
     }
   }

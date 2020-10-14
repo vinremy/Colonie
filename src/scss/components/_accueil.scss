@@ -17,7 +17,7 @@ button {
 }
 
 .hero {
-  background-image: url("images/piscine.jpg") center/cover;
+  background: url("../images/piscine.jpg") center/cover;
 
   background-color: green;
 
@@ -90,7 +90,7 @@ button {
 
   .acActImg {
     width: 50%;
-    background-image: url("images/tirArc.png") center/cover;
+    background: url("../images/tirArc.png") center/cover;
     background-color: #2E9720;
 
     position: relative;
@@ -111,7 +111,8 @@ button {
     height: 100%;
     width: 100%;
 
-    background-color: #00AFF0;
+    background: rgba(46, 151, 32, 0.5);
+    backdrop-filter: blur(20px);
 
     button {
       background-color: #EBEBEB;
@@ -170,7 +171,7 @@ button {
 
   }
   .acActImg2 {
-    background-image: url("images/poney.jpg");
+    background: url("../images/poney.jpg");
 
     background-color: #2E9720;
     position: relative;
@@ -200,7 +201,8 @@ button {
     height: 100%;
     width: 100%;
 
-    background-color: #00AFF0;
+    background: rgba(46, 151, 32, 0.5);
+    backdrop-filter: blur(20px);
 
     button {
       background-color: #EBEBEB;
