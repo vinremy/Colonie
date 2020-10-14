@@ -40,6 +40,7 @@ button {
       font-size: 120px;
       text-transform: none;
 
+      margin: 0;
       font-weight: normal;
     }
 
@@ -171,7 +172,7 @@ button {
 
   }
   .acActImg2 {
-    background: url("../images/poney.jpg");
+    background: url("../images/poney.jpg") center/cover;
 
     background-color: #2E9720;
     position: relative;
@@ -220,14 +221,12 @@ button {
   }
 }
 
-
-
 .accueilActivite {
   max-width: 1238px;
 
   margin: 0 auto;
 
-  .acButton{
+  .acButton {
     display: none;
   }
 }
@@ -334,10 +333,11 @@ button {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 730px) {
   #body {
-    padding: 0;
-    margin-top: 166px;
+    padding-top: 150px;
+    padding-left: 0;
+
 
     button {
       width: 196px;
@@ -347,6 +347,7 @@ button {
 
     .hero {
       height: 276px;
+
 
       div {
 
@@ -374,9 +375,9 @@ button {
 
     }
 
-    .accueilActivite{
+    .accueilActivite {
 
-      .acButton{
+      .acButton {
         display: block;
         align-self: center;
 
@@ -384,74 +385,66 @@ button {
       }
     }
 
-    .acActivite{
+    .acActivite {
       display: block;
 
       height: auto;
 
-
-
-      h3{
+      h3 {
         font-size: 24px;
         padding-bottom: 14px;
       }
 
-      li{
+      li {
         font-size: 18px;
       }
 
-      .acLigne{
+      .acLigne {
         height: 5px;
         width: 116px;
       }
 
-
-      .acActImg{
+      .acActImg {
         width: 100%;
         height: 266px;
 
-        :hover{
+        :hover {
           width: 100%;
         }
       }
 
-      .acActImg2{
+      .acActImg2 {
         width: 100%;
         height: 266px;
       }
 
-      .actContenue{
+      .actContenue {
         margin: 0;
 
         width: 247px;
 
-
       }
-      div{
-width: 100%;
+      div {
+        width: 100%;
       }
 
-      .acActImg2{
-        :hover{
+      .acActImg2 {
+        :hover {
           width: 100%;
         }
       }
 
-      .actContenue2{
+      .actContenue2 {
 
         align-items: flex-end;
 
-        h3{
-          width:247px ;
+        h3 {
+          width: 247px;
         }
 
       }
 
-
     }
-
-
-
 
     .promotion {
 
@@ -464,53 +457,96 @@ width: 100%;
         right: -50%;
       }
 
-      .promContenant{
+      .promContenant {
 
-        div{
-width: 259px;
+        div {
+          width: 259px;
           padding: 20px;
-
 
           background-color: rgba(138, 196, 43, 0.85);
 
-          h2{
+          h2 {
             font-size: 30px;
             padding-bottom: 30px;
           }
 
-           p{
+          p {
             font-size: 20px;
-             margin: 30px 0;
+            margin: 30px 0;
           }
 
-          h4{
+          h4 {
             font-size: 20px;
             margin: 0;
           }
         }
 
-
       }
 
     }
 
+    .partenaire {
 
+      h2 {
+        font-size: 30px;
+        margin: 0 auto;
+        padding-left: 37px;
+      }
 
-    .partenaire{
-
-h2{
-  font-size: 30px;
-  margin: 0 auto;
-  padding-left: 37px;
-}
-
-      .partContenant{
+      .partContenant {
         justify-content: center;
       }
 
     }
 
   }
+}
+
+@media screen and (min-width: 730px) and (max-width: 1140px) {
+
+  .wrapper {
+    max-width: 500px;
+  }
+
+  .hero {
+
+    .wrapper {
+      div {
+        margin: 0;
+      }
+    }
+
+  }
+
+  .accueilActivite {
+    h3 {
+      font-size: 26px;
+
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    .acActivite {
+      height: 350px;
+    }
+
+  }
+
+  .promotion {
+    position: relative;
+    overflow: hidden;
+    img {
+      position: absolute;
+      right: -40%;
+      height: auto;
+      width: 50vw;
+    }
+
+  }
+
+
 }
 
 

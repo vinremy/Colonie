@@ -17,8 +17,9 @@ nav {
     align-items: center;
 
     img {
-      width: auto;
-      height: 15vh;
+      width: 203px;
+      height: auto;
+
     }
 
   }
@@ -124,15 +125,15 @@ nav {
 
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 730px) {
 
   nav {
+
     .fermer {
       display: none;
       opacity: 0;
       z-index: 4;
     }
-
 
     .ouvert {
       display: block;
@@ -150,8 +151,6 @@ nav {
       }
     }
 
-
-
     .btn-ouvert {
       display: block;
     }
@@ -163,9 +162,13 @@ nav {
       justify-content: space-between;
       background-color: #2E9720;
       align-items: center;
-
+      height: 150px;
+      img {
+        height: 150px;
+        width: auto;
+      }
       .logo {
-        height: 15vh;
+        height: 130px;
         width: auto;
       }
 
@@ -175,11 +178,20 @@ nav {
         margin-right: 20px;
       }
 
-      #fermer{
+      #fermer {
         width: 100px;
         height: auto;
         margin-right: 20px;
       }
+    }
+
+    .navLogo {
+      justify-content: space-between;
+      //max-width: 122px;
+      background-color: white;
+
+      height: 150px;
+
     }
 
   }
@@ -189,18 +201,14 @@ nav {
     width: 100%;
     padding: 0;
 
-  }
-  .navLogo {
-    justify-content: space-between;
-    //max-width: 122px;
-    background-color: white;
+    .divLangue{
+      height: 12vh;
+    }
 
   }
-
-
 
   .open {
-    height: 80vh;
+    height: 85vh;
     transition: all .5s;
     padding: 0;
   }
