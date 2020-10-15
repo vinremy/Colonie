@@ -5,7 +5,7 @@ nav {
   position: fixed;
   width: 203px;
 
-  .boiteLogo{
+  .boiteLogo {
     height: 20vh;
   }
 
@@ -17,8 +17,9 @@ nav {
     align-items: center;
 
     img {
-      max-height: 20vh;
-      width: auto;
+      width: 203px;
+      height: auto;
+
     }
 
   }
@@ -56,9 +57,14 @@ nav {
     .langue {
       display: flex;
       flex-direction: column;
+      justify-content: center;
 
       a {
         height: 30px;
+
+        p {
+          margin: 0;
+        }
       }
 
     }
@@ -98,6 +104,8 @@ nav {
 
   .divLangue {
     background-color: white;
+    display: flex;
+    align-items: center;
   }
 
   a:link {
@@ -111,72 +119,103 @@ nav {
   .btn-ouvert {
     display: none;
   }
-
   .btn-fermer {
     display: none;
   }
 
 }
 
-@media screen and (max-width: 414px) {
-
-
-
-
+@media screen and (max-width: 730px) {
 
   nav {
-    position: fixed;
-    width: 100vw;
 
-    .boiteLogo{
-      display: flex;
-      justify-content: space-between;
-      background-color: #2E9720;
-      align-items: center;
-
-      .logo{
-        height: 400px;
-        width: auto;
-      }
-
-      #menu{
-        width: 60px;
-        height: auto;
-        margin-right: 20px;
-      }
+    .fermer {
+      display: none;
+      opacity: 0;
+      z-index: 4;
     }
 
-    .btn-ouvert{
+    .ouvert {
       display: block;
       opacity: 1;
       position: absolute;
       right: 0;
       padding-right: 15px;
     }
+
+    .divLangue {
+      justify-content: center;
+
+      .navPositionA {
+        margin-right: 100px;
+      }
+    }
+
+    .btn-ouvert {
+      display: block;
+    }
+    position: fixed;
+    width: 100vw;
+
+    .boiteLogo {
+      display: flex;
+      justify-content: space-between;
+      background-color: #2E9720;
+      align-items: center;
+      height: 150px;
+      img {
+        height: 150px;
+        width: auto;
+      }
+      .logo {
+        height: 130px;
+        width: auto;
+      }
+
+      #menu {
+        width: 60px;
+        height: auto;
+        margin-right: 20px;
+      }
+
+      #fermer {
+        width: 100px;
+        height: auto;
+        margin-right: 20px;
+      }
+    }
+
+    .navLogo {
+      justify-content: space-between;
+      //max-width: 122px;
+      background-color: white;
+
+      height: 150px;
+
+    }
+
+  }
+  .sousmenu {
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+
+    .divLangue{
+      height: 12vh;
+    }
+
   }
 
-  .btn-fermer {
-    display: none;
-    opacity: 0;
+  .open {
+    height: 85vh;
+    transition: all .5s;
+    padding: 0;
   }
 
-  .navLogo {
-    justify-content: space-between;
-    //max-width: 122px;
-    background-color: white;
-
-  }
-
-  .sousmenu{
-    display: none;
-  }
-
-  .open{
-    display: block;
-  }
-
-  .close{
-    display: none;
+  .close {
+    height: 0;
+    transition: all .5s;
   }
 }
 
