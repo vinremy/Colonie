@@ -68,12 +68,18 @@ body{
     width: 544px;
     height:407px ;
   }
-
+.iconefeuille{
+  display: none;
+  //width:200px;
+ // height:200px;
+  //position:absolute;
+  //left:1500px;
+  //top:1200px
+}
 
 }
 
 .articles{
-
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -96,10 +102,18 @@ body{
   }
 
   .acLigne {
-    width: 1100px;
+    width: 333px;
     height: 9px;
     background-color: #7FACBF;
     margin-top: 30px;
+  }
+
+  .ecolo{
+    width: 312px;
+    height: 312px;
+    position:absolute;
+    top: 2700px;
+    right: 600px;
   }
 
 }
@@ -107,7 +121,7 @@ body{
 .reglementation{
 
   background-color: #2E9720;
-
+  padding: 30px;
   h1{
     color: white;
     margin: 30px;
@@ -116,7 +130,7 @@ body{
     color: white;
   }
   .acLigne {
-    width: 900px;
+    width: 333px;
     height: 9px;
     background-color: #7FACBF;
     margin: 30px;
@@ -128,12 +142,20 @@ body{
     font-size: 30px;
     margin: 40px;
   }
+
+  .interdit{
+    width: 200px;
+    height:200px;
+    position: absolute;
+    left: 250px;
+    top: 3099px;
+  }
 }
 
 .conseils{
 
   .acLigne {
-    width: 1100px;
+    width: 333px;
     height: 9px;
     background-color: #7FACBF;
     margin-top: 30px;
@@ -143,6 +165,14 @@ body{
     text-transform: none;
     font-size: 30px;
     margin: 40px;
+  }
+
+  .crochet{
+    width: 200px;
+    height:200px;
+    position:absolute;
+    left: 250px;
+    top: 5800px;
   }
 }
 
@@ -152,9 +182,10 @@ body{
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
+  padding: 30px;
 
   .acLigne {
-    width: 1100px;
+    width: 333px;
     height: 9px;
     background-color: #7FACBF;
     margin-top: 20px;
@@ -184,10 +215,14 @@ body{
   flex-direction: column;
 
   .acLigne {
-    width: 1100px;
+    width: 333px;
     height: 9px;
     background-color: #7FACBF;
     margin: 40px;
+  }
+
+  button{
+    display: none;
   }
 
   img{
@@ -197,3 +232,153 @@ body{
 
 }
 
+@media screen and (max-width: 834px) {
+  body{
+
+    .covid{
+      p{
+        font-size: 21px;
+      }
+    }
+
+    h1{
+      font-size: 30px;
+    }
+    section{
+      p{
+        font-size: 18px;
+      }
+    }
+
+  }
+
+  .infoparc{
+    .acLigne {
+      max-width: 333px;
+    }
+
+    .iconefeuille{
+      display: none;
+    }
+
+    img{
+      width: 307px;
+      height:230px ;
+    }
+  }
+
+  .reglementation{
+    .acLigne {
+      max-width: 333px;
+    }
+
+    .interdit{
+      display: none;
+    }
+
+    li{
+       font-size: 18px;
+     }
+  }
+
+  .mission{
+    .acLigne {
+      max-width: 333px;
+    }
+    .ecolo{
+      display: none;
+    }
+  }
+
+  .conseils{
+    .acLigne {
+      max-width: 333px;
+    }
+
+    li{
+      font-size: 18px;
+    }
+
+    .crochet{
+      display: none;
+    }
+  }
+
+  .Carte{
+    .acLigne {
+      max-width: 333px;
+    }
+  }
+
+  .evenements{
+    .acLigne {
+      max-width: 333px;
+    }
+    img{
+      display: none;
+    }
+    button{
+      display: block;
+      margin-bottom: 30px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 1439px) {
+
+  .infoparc{
+    .iconefeuille{
+      display: none;
+    }
+    .acLigne {
+      max-width: 200px;
+    }
+  }
+
+  .interdit{
+    display: none;
+  }
+
+  .mission{
+    .ecolo{
+      display: none;
+    }
+  }
+
+  .conseils{
+    .crochet{
+      display: none;
+    }
+  }
+
+
+}
+
+@media screen and (max-width: 1140px) {
+
+  .articles{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .articles2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.infoparc{
+  img{
+    width: auto;
+  }
+
+}
+
+
+
+}
