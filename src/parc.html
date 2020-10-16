@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Parcs</title>
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Source+Sans+Pro:wght@400;700&display=swap"
@@ -14,35 +15,45 @@
 <!--?>-->
 <aside>
     <nav>
-        <a href="index.html">
-            <div class="navLogo"><img src="images/logo.jpg" alt="logo"></div>
-        </a>
-        <a href="index.html">
-            <div class="accueil"><p>Accueil</p></div>
-        </a>
-        <a href="">
-            <div class="camp"><p>Camp</p></div>
-        </a>
-        <a href="parc.html">
-            <div class="parc"><p>Parc</p></div>
-        </a>
-        <a href="">
-            <div class="activite"><p>Activités</p></div>
-        </a>
-        <a href="">
-            <div class="location"><p>Location</p></div>
-        </a>
-        <a href="">
-            <div class="emploie"><p>Emploi</p></div>
-        </a>
-        <a href="">
-            <div class="contact"><p>Contact</p></div>
-        </a>
-        <div class="divLangue">
-            <div><a class="navPositionA" href=""><img src="images/FbVert.png" alt="FbVert"></a></div>
-            <div class="langue">
-                <a href=""><p>En</p></a>
-                <a href=""><p>Fr</p></a>
+        <div class="boiteLogo">
+            <div class="navLogo">
+                <a href="">
+                    <img  class="logo" src="images/logo.jpg" alt="logo">
+                </a>
+
+
+            </div>
+            <img id="fermer" class="btn-fermer fermer" src="images/fermer.svg" alt="fermer">
+            <img id="menu" class="btn-ouvert ouvert" src="images/menu.svg" alt="menu">
+        </div>
+        <div class="sousmenu close">
+            <a href="front-page.html">
+                <div class="accueil"><p>Accueil</p></div>
+            </a>
+            <a href="">
+                <div class="camp"><p>Camp</p></div>
+            </a>
+            <a href="parc.html">
+                <div class="parc"><p>Parc</p></div>
+            </a>
+            <a href="">
+                <div class="activite"><p>Activités</p></div>
+            </a>
+            <a href="">
+                <div class="location"><p>Location</p></div>
+            </a>
+            <a href="">
+                <div class="emploie"><p>Emploi</p></div>
+            </a>
+            <a href="">
+                <div class="contact"><p>Contact</p></div>
+            </a>
+            <div class="divLangue">
+                <div><a class="navPositionA" href=""><img src="images/FbVert.png" alt="FbVert"></a></div>
+                <div class="langue">
+                    <a href=""><p>En</p></a>
+                    <a href=""><p>Fr</p></a>
+                </div>
             </div>
         </div>
     </nav>
@@ -71,6 +82,7 @@
     <div class="wrapper">
     <section class="infoparc">
         <h1>Une biodiversité surprenante</h1>
+        <img class="iconefeuille" src="images/feuille.png" alt="feuille">
         <div class="acLigne"></div>
         <div class="articles">
             <p> Le Parc abrite une extraordinaire biodiversité, comprenant des arbres d’âges et d’essences très variés.
@@ -87,7 +99,9 @@
             <img src="images/bioversite2.png" alt="photo camp">
         </div>
     </section>
+    </div>
 
+    <div class="wrapper">
         <section class="mission">
             <h1>Mission du Parc</h1>
             <div class="acLigne"></div>
@@ -100,9 +114,13 @@
                 de sensibilisation et d’éducation, s’inscrira dans la dynamique de développement durable mise de l’avant par la région de Sorel-Tracy.
                 Milieu de vie pour la population locale, le Parc saura aussi attirer l’attention des touristes de tout le Québec en proposant
                 aux familles une approche novatrice en matière de sport et de plein air et des activités conçues pour susciter leurs préoccupations écologiques.</p>
+            <img class="ecolo" src="images/ecologique.png" alt="ecologique">
         </section>
+        </div>
 
         <section class="reglementation">
+            <div class="wrapper">
+            <img class="interdit" src="images/interdit.png" alt="signe interdit">
             <h1>Reglementation du parc</h1>
             <div class="acLigne"></div>
             <p>Afin que votre visite soit la plus agréable possible, merci de respecter la réglementation suivante :</p>
@@ -132,9 +150,13 @@
                 <li> L'installation de chapiteau et autre abri, de jeu ou de structure est interdite sans autorisation de la direction.</li>
                 </ul>
                 <p>N'hésitez pas à communiquer avec nous pour de plus amples informations.</p>
+                </div>
         </section>
 
+
         <section class="conseils">
+            <div class="wrapper">
+            <img class="crochet" src="images/crochet.png" alt="signe coche">
             <h1>Conseil de sécurité</h1>
             <div class="acLigne"></div>
             <p>Pour votre bien-être et votre sécurité :</p>
@@ -148,24 +170,30 @@
                 <li>Apportez avec vous votre téléphone cellulaire (piles bien chargées) est toujours une bonne idée pour demander de l'aide au besoin.La réception des signaux est bonne sur la majorité du territoire.</li>
                 <li>Des balises d'urgence sont installées à plusieurs intersection de sentiers. En cas d'urgence, composez le 911, identifiez le numéro de balise d'évacuation la plus proche et précisez que c'est une intervention "hors route"</li>
             </ul>
+            </div>
         </section>
+
 
         <section class="Carte">
             <h1>Carte de sécurité</h1>
             <div class="acLigne"></div>
             <button>
-                Faire un don
+                Télécharger
             </button>
         </section>
 
         <section class="evenements">
             <h1>Événements</h1>
             <div class="acLigne"></div>
+            <button>
+                Télécharger
+            </button>
             <img src="images/evenement.png" alt="photo camp">
         </section>
 
-    </div>
     <footer>
+
+
         <div class="footHero">
             <div class="footTransition"></div>
         </div>
@@ -223,6 +251,7 @@
                     <input type="email" placeholder="exemple@gmail.com">
                     <button type="submit">Envoyer</button>
                 </form>
+
             </div>
         </div>
 
@@ -232,6 +261,8 @@
             </div>
         </div>
     </footer>
+
+</div>
 
 </div>
 </body>
