@@ -1,0 +1,179 @@
+
+.bodyActivite {
+
+  background: url("../images/bg_arbre.jpg") center/cover;
+
+  .activiteHero {
+    background: url("../images/camp.png") center/cover;
+  }
+
+  .filtreContenant {
+
+    display: flex;
+    //justify-content: center;
+
+    margin: 58px 0;
+    .filtre {
+      width: 280px;
+      height: 58px;
+      background-color: #206A97;
+      color: white;
+      margin-right: 30px;
+      cursor: pointer;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      p {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20px;
+        padding: 6px 17px;
+        margin: 0;
+        text-align: center;
+
+      }
+    }
+
+    .active {
+      background-color: #2E9720;
+    }
+
+  }
+
+  .listeActivite {
+
+    display: flex;
+
+    max-width: 1720px;
+
+    flex-wrap: wrap;
+
+    .uneActivite {
+      width: 280px;
+      height: 370px;
+
+      margin-right: 30px;
+      margin-bottom: 20px;
+      overflow: hidden;
+
+      .photo {
+        height: 304px;
+        width: auto;
+        position: relative;
+      }
+
+      .pic-1 {
+        background: url("../images/tirArc.png") center/cover;
+      }
+
+      .pic-2 {
+        background: url("../images/cannot.jpg") center/cover;
+      }
+      .pic-3 {
+        background: url("../images/Rabaska.jpg") center/cover;
+      }
+      .pic-4 {
+        background: url("../images/voile.jpg") center/cover;
+      }
+      .pic-5 {
+        background: url("../images/nature.jpg") center/cover;
+      }
+      .pic-6 {
+        background: url("../images/Lapinos.jpg") center/cover;
+      }
+      .pic-7 {
+        background: url("../images/escalade.jpg") center/cover;
+      }
+      .pic-8 {
+        background: url("../images/enfants_boussole.jpg") center/cover;
+      }
+      .pic-9 {
+        background: url("../images/papillion.jpg") center/cover;
+      }
+      .pic-10 {
+        background: url("../images/Pont_de_corde.jpg") center/cover;
+      }
+      .pic-11 {
+        background: url("../images/bivouac.png") center/cover;
+      }
+      .pic-12 {
+        background: url("../images/ski.jpg") center/cover;
+      }
+      .pic-13 {
+        background: url("../images/guerre_tuques.jpg") center/cover;
+      }
+      .pic-14 {
+        background: url("../images/Fourchette_et_enfants_raquettes.jpg") center/cover;
+      }
+      .pic-15 {
+        background: url("../images/Glissade.png") center/cover;
+      }
+      .pic-16 {
+        background: url("../images/hockey.jpg") center/cover;
+      }
+      .pic-17 {
+        background: url("../images/cabane_1.jpg") center/cover;
+      }
+      .pic-18 {
+        background: url("../images/poney.jpg") center/cover;
+      }
+      .icon {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 63px;
+        height: auto;
+      }
+
+      .icon2{
+        position: absolute;
+        bottom: 0;
+        right: 70px;
+        width: 63px;
+        height: auto;
+      }
+
+      p {
+        color: white;
+        font-size: 30px;
+        font-family: 'Source Sans Pro', sans-serif;
+        padding: 10px 0;
+        text-align: center;
+
+        height: 66px;
+
+        margin: 0;
+      }
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 1140px) {
+
+  .bodyActivite {
+
+    .filtreContenant {
+      justify-content: space-between;
+
+      align-items: center;
+
+      .filtre {
+        height: 150px;
+        margin: 0;
+      }
+    }
+
+    .listeActivite {
+      justify-content: center;
+
+      .uneActivite {
+        margin: 0;
+      }
+
+    }
+  }
+
+}
