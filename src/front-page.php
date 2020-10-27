@@ -86,7 +86,7 @@
 
 
                 </div>
-                <img src="<?php bloginfo('template_url'); ?>images/fillePapillion.png" alt="fille papillion">
+                <img src="<?php bloginfo('template_url'); ?>/images/fillePapillion.png" alt="fille papillion">
             </div>
         </div>
 

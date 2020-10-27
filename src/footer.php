@@ -16,7 +16,7 @@
                     <h2>Nous Joindre</h2></div>
                 <div class="joindreContenant">
                     <div class="flexJoindre">
-                        <img src="images/phoneSvg.svg" alt="téléphone">
+                        <img src="<?php bloginfo('template_url'); ?>/images/phoneSvg.svg" alt="téléphone">
                         <div>
                             <p>450 742-4767</p>
                             <p>1 800 368-0168</p>
@@ -24,14 +24,14 @@
                     </div>
 
                     <div class="flexJoindre">
-                        <img src="images/faxSvg.svg" alt="fax">
+                        <img src="<?php bloginfo('template_url'); ?>/images/faxSvg.svg" alt="fax">
 
                         <p>450 742-3841</p>
 
                     </div>
 
                     <div class="flexJoindre">
-                        <img src="images/emailSvg.svg" alt="email">
+                        <img src="<?php bloginfo('template_url'); ?>/images/emailSvg.svg" alt="email">
 
                         <a href="mailto:info@coloniedesgreves.com"><p>info@coloniedesgreves.com</p></a>
 
