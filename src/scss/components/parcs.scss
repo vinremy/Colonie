@@ -1,0 +1,384 @@
+body{
+  h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 48px;
+    text-transform: none;
+    font-weight: normal;
+  }
+
+  p{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: none;
+    font-size: 30px;
+    margin: 40px;
+  }
+
+}
+
+.hero{
+  background: url("../images/piscine.jpg") center/cover;
+}
+
+
+
+.covid {
+  background: url("../images/medical-mask.png") center;
+
+  background-color:#EF3F34;
+
+  height: 363px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  //padding-left: 209px;
+
+  div {
+    margin-left: 44px;
+    color: #fff;
+
+   p{
+     font-size: 30px;
+   }
+
+    img{
+      width: 512px;
+      height: 512px;
+      position:absolute;
+      right: 40px;
+      bottom: 4px;
+    }
+
+  }
+}
+
+.infoparc{
+
+  .acLigne {
+    max-width: 225px;
+    height: 9px;
+    background-color: #7FACBF;
+    margin-top: -30px;
+  }
+
+  img{
+    width: 544px;
+    height:407px ;
+  }
+.iconefeuille{
+  display: none;
+  //width:200px;
+ // height:200px;
+  //position:absolute;
+  //left:1500px;
+  //top:1200px
+}
+
+}
+
+.articles{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+.articles2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.mission{
+
+  p{
+      margin: 40px;
+
+  }
+
+  .acLigne {
+    width: 333px;
+    height: 9px;
+    background-color: #7FACBF;
+    margin-top: 30px;
+  }
+
+  .ecolo{
+    width: 312px;
+    height: 312px;
+    position:absolute;
+    top: 2700px;
+    right: 600px;
+  }
+
+}
+
+.reglementation{
+
+  background-color: #2E9720;
+  padding: 30px;
+  h1{
+    color: white;
+    margin: 30px;
+  }
+  p{
+    color: white;
+  }
+  .acLigne {
+    width: 333px;
+    height: 9px;
+    background-color: #7FACBF;
+    margin: 30px;
+  }
+  li{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: none;
+    font-size: 30px;
+    margin: 40px;
+  }
+
+  .interdit{
+    width: 200px;
+    height:200px;
+    position: absolute;
+    left: 250px;
+    top: 3099px;
+  }
+}
+
+.conseils{
+
+  .acLigne {
+    width: 333px;
+    height: 9px;
+    background-color: #7FACBF;
+    margin-top: 30px;
+  }
+  li{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: none;
+    font-size: 30px;
+    margin: 40px;
+  }
+
+  .crochet{
+    width: 200px;
+    height:200px;
+    position:absolute;
+    left: 250px;
+    top: 5800px;
+  }
+}
+
+.Carte{
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+
+  .acLigne {
+    width: 333px;
+    height: 9px;
+    background-color: #7FACBF;
+    margin-top: 20px;
+  }
+
+  button {
+    width: 336px;
+    height: 82px;
+    background-color: #2E9720;
+    color: #fff;
+    border: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    text-transform: none;
+    font-size: 42px;
+    margin: 20px;
+  }
+
+
+}
+
+.evenements{
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+  .acLigne {
+    width: 333px;
+    height: 9px;
+    background-color: #7FACBF;
+    margin: 40px;
+  }
+
+  button{
+    display: none;
+  }
+
+  img{
+    margin: 50px;
+
+  }
+
+}
+
+@media screen and (max-width: 834px) {
+  body{
+
+    .covid{
+      p{
+        font-size: 21px;
+      }
+    }
+
+    h1{
+      font-size: 30px;
+    }
+    section{
+      p{
+        font-size: 18px;
+      }
+    }
+
+  }
+
+  .infoparc{
+    .acLigne {
+      max-width: 333px;
+    }
+
+    .iconefeuille{
+      display: none;
+    }
+
+    img{
+      width: 307px;
+      height:230px ;
+    }
+  }
+
+  .reglementation{
+    .acLigne {
+      max-width: 333px;
+    }
+
+    .interdit{
+      display: none;
+    }
+
+    li{
+       font-size: 18px;
+     }
+  }
+
+  .mission{
+    .acLigne {
+      max-width: 333px;
+    }
+    .ecolo{
+      display: none;
+    }
+  }
+
+  .conseils{
+    .acLigne {
+      max-width: 333px;
+    }
+
+    li{
+      font-size: 18px;
+    }
+
+    .crochet{
+      display: none;
+    }
+  }
+
+  .Carte{
+    .acLigne {
+      max-width: 333px;
+    }
+  }
+
+  .evenements{
+    .acLigne {
+      max-width: 333px;
+    }
+    img{
+      display: none;
+    }
+    button{
+      display: block;
+      margin-bottom: 30px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 1439px) {
+
+  .infoparc{
+    .iconefeuille{
+      display: none;
+    }
+    .acLigne {
+      max-width: 200px;
+    }
+  }
+
+  .interdit{
+    display: none;
+  }
+
+  .mission{
+    .ecolo{
+      display: none;
+    }
+  }
+
+  .conseils{
+    .crochet{
+      display: none;
+    }
+  }
+
+
+}
+
+@media screen and (max-width: 1140px) {
+
+  .articles{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .articles2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.infoparc{
+  img{
+    width: auto;
+  }
+
+}
+
+
+
+}
