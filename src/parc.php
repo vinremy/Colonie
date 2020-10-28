@@ -1,10 +1,12 @@
 <?php
-/*
-Template Name: parc
-*/
+/**
+ * Template Name: parc
+
+ */
 ?>
 
-<?php get_header() ?>
+<?php get_header()
+?>
 
 <div id="body">
 
@@ -137,4 +139,5 @@ Template Name: parc
             <img src="images/evenement.png" alt="photo camp">
         </section>
 
-<?php get_footer() ?>
+<?php get_footer()
+?>

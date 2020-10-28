@@ -1,3 +1,10 @@
+<?php
+/**
+ * Template Name: activite
+
+ */
+?>
+
 <?php get_header()
 ?>
 <div id="body" class="bodyActivite">
