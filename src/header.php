@@ -7,7 +7,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<<<<<<< Updated upstream
     <title>Colonie des Grèves</title>
+=======
+    <title><?php the_title();?> <?php bloginfo('name')?></title>
+>>>>>>> Stashed changes
 
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/main.css"/>
 
