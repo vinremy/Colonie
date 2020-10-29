@@ -19,7 +19,12 @@
 <body>
 
 <aside>
-    <nav>
+    <div class="navLogo">
+
+        <img class="pasDeClass" src=" <?php bloginfo('template_url'); ?>/images/logo.jpg" alt="logo"
+        <img class="fermer" src="<?php bloginfo('template_url'); ?>/images/fermer.svg" alt="fermer">
+        <img class="fermer" src="<?php bloginfo('template_url'); ?>/images/menu.svg" alt="menu">
+    </div>
 
 
 
@@ -34,7 +39,7 @@
 
 
 
-    </nav>
+
 </aside>
 
 
